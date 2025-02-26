@@ -1,0 +1,14 @@
+version: "3"
+volumes:
+  ai-volume:
+services:
+  ai:
+    build: ./ #指定Dockerfile所在路径
+    container_name: ai
+    working_dir: /ai
+    volumes:
+      - ./:/ai
+
+    ports:
+      - "8033:8033"
+      - "8034:8034"

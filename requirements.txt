@@ -1,0 +1,8 @@
+gradio
+readability
+readability-lxml
+lxml
+lxml_html_clean
+openai
+requests
+bs4
